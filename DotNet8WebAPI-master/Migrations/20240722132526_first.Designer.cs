@@ -11,7 +11,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace DotNet8WebAPI.Migrations
 {
     [DbContext(typeof(OurHeroDbContext))]
-    [Migration("20240722081641_first")]
+    [Migration("20240722132526_first")]
     partial class first
     {
         /// <inheritdoc />
