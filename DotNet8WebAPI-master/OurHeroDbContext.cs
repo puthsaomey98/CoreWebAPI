@@ -12,10 +12,12 @@ namespace DotNet8WebAPI
 
         public DbSet<OurHero> OurHeros { get; set; }
         public DbSet<User> Users { get; set; }
-
+        public DbSet<ProductCategory> ProductCategories { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<OurHero>().HasKey(x => x.Id);
+
+            modelBuilder.Entity<ProductCategory>().HasKey(x => x.Id);
 
             modelBuilder.Entity<OurHero>().HasData(
                 new OurHero

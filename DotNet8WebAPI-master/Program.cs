@@ -16,6 +16,7 @@ builder.Services.AddDbContext<OurHeroDbContext>(options => options.UseNpgsql(con
 
 builder.Services.AddSingleton<IOurHeroService, OurHeroService>();
 builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<IProductCategoryService, ProductCategoryService>();
 
 
 
