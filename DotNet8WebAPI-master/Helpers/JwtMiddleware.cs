@@ -1,11 +1,11 @@
-﻿using DotNet8WebAPI.Model;
-using DotNet8WebAPI.Services;
+﻿using WebAPI.Model;
+using WebAPI.Services;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Text;
 
-namespace DotNet8WebAPI.Helpers
+namespace WebAPI.Helpers
 {
     public class JwtMiddleware
     {

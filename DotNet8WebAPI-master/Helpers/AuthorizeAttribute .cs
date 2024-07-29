@@ -1,8 +1,8 @@
-﻿using DotNet8WebAPI.Model;
+﻿using WebAPI.Model;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 
-namespace DotNet8WebAPI.Helpers
+namespace WebAPI.Helpers
 {
     [AttributeUsage(AttributeTargets.Class | AttributeTargets.Method)]
 

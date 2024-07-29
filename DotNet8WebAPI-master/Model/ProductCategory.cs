@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace DotNet8WebAPI.Model
+namespace WebAPI.Model
 {
     public class ProductCategory
     {

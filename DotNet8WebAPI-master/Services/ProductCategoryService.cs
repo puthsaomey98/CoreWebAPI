@@ -1,7 +1,7 @@
-﻿using DotNet8WebAPI.Model;
+﻿using WebAPI.Model;
 using Microsoft.EntityFrameworkCore;
 
-namespace DotNet8WebAPI.Services
+namespace WebAPI.Services
 {
     public class ProductCategoryService : IProductCategoryService
     {

@@ -1,6 +1,6 @@
-﻿using DotNet8WebAPI.Model;
+﻿using WebAPI.Model;
 
-namespace DotNet8WebAPI.Services
+namespace WebAPI.Services
 {
     public interface IUserService
     {

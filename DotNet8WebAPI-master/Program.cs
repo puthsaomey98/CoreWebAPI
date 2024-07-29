@@ -1,7 +1,7 @@
-using DotNet8WebAPI;
-using DotNet8WebAPI.Helpers;
-using DotNet8WebAPI.Model;
-using DotNet8WebAPI.Services;
+using WebAPI;
+using WebAPI.Helpers;
+using WebAPI.Model;
+using WebAPI.Services;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 

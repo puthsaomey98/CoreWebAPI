@@ -1,4 +1,4 @@
-﻿namespace DotNet8WebAPI.Model
+﻿namespace WebAPI.Model
 {
     public class AuthenticateResponse
     {

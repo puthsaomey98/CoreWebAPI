@@ -1,7 +1,7 @@
-﻿using DotNet8WebAPI.Model;
+﻿using WebAPI.Model;
 using Microsoft.EntityFrameworkCore;
 
-namespace DotNet8WebAPI
+namespace WebAPI
 {
     public class OurHeroDbContext : DbContext
     {

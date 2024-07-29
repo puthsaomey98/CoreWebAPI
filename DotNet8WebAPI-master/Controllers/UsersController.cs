@@ -1,10 +1,10 @@
-﻿using DotNet8WebAPI.Helpers;
-using DotNet8WebAPI.Model;
-using DotNet8WebAPI.Services;
+﻿using WebAPI.Helpers;
+using WebAPI.Model;
+using WebAPI.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace DotNet8WebAPI.Controllers
+namespace WebAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
